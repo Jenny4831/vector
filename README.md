@@ -1,8 +1,7 @@
-# vector
-#construct vectors
-and perform vector computations in the Java programming language#
+# Vector
+# construct vectors and perform vector computations in the Java programming language#
 
-Commands
+# Commands
 Once the program has started, you are prompted to enter the following commands:
 • bye – Terminates the program.
 • help – Displays the syntax of each command.
@@ -10,13 +9,13 @@ Once the program has started, you are prompted to enter the following commands:
 • show – Displays the vector with the given key.
 • compute – Displays the result of a computation.
 
-set command
+# set command
 The set command has the following syntax: set <key> = <operation> <args...>
 • key – A string with no spaces that will be used to identify the vector.
 • operation – The operation used to generate the vector.
 • args – One or more optional arguments that can be passed to the operation.
   
-Valid operations are:
+# Valid operations are:
 • random <seed>
 Generates a new vector where each element is a random integer between 0 and 100 inclusive
 using the seed value. Generated using the java.util.Random random number generator.
@@ -60,13 +59,13 @@ The show command has the following syntax: show <key> <index>
 • key – The key of the vector to display.
 • index – Optional index. When specified, display the element at this index.
   
- compute command
+# compute command
 The compute command has the following syntax: compute <operation> <key> <arg>
 • operation – The operation to perform on the vector.
 • key – The key of the vector to perform the given operation on.
 • arg – An optional argument that may be required for the given operation.
 
-Valid operations are:
+# Valid operations are:
 • sum <key>
 Display the sum of all vector elements.
 • mode <key>
