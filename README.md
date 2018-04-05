@@ -1,5 +1,5 @@
 # Vector
-# construct vectors and perform vector computations in the Java programming language#
+# Construct vectors and perform vector computations in the Java programming language #
 
 # Commands
 Once the program has started, you are prompted to enter the following commands:
